@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6889598944611555286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6889598944611555281}
+  - component: {fileID: 6889598944611555283}
+  m_Layer: 0
+  m_Name: SlideControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6889598944611555281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889598944611555286}
+  m_LocalRotation: {x: -0.000000011422178, y: 0.70710677, z: -0.7071069, w: 0.000000005796479}
+  m_LocalPosition: {x: 0, y: 41.069042, z: 4.855341}
+  m_LocalScale: {x: 0.3361752, y: 0.59764516, z: 5.37881}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6889598944611555283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6889598944611555286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ecb9180c6b21554caec21446f888543, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerID: 0
+  IsPositionMapped: 0
+  InvertX: 0
+  InvertY: 0
+  grounded: 0
+  templateCam: 0
+  Audio: 0
+  full: 0
+  IsRotationMapped: 1
+  AutoHideGO: 0
+  CameraOffset: 10
+  RotateAround: 1
+  camY: 0
+  camX: 0
+  m_ScreenPosition: {x: 0, y: 0}
+  m_IsVisible: 0
+  RotationMultiplier: 1
